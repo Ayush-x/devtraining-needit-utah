@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e54f0ff84784b11098f58977536d43b8" label="City" max_length="40" name="x_58872_needit_city" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element display="true" label="Country" max_length="40" name="country" reference="core_country" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="State/Province" max_length="40" name="state_province" reference="x_58872_needit_state_province" type="string"/>
+    </element>
+</database>
