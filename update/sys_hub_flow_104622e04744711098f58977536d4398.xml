@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description>Steps in this Flow are to be followed whenever a new employee has to be onboarded in HCL organization, and a service request is raised for the same. </description>
         <internal_name>hcl_new_employee_onboarding</internal_name>
-        <label_cache>[{"name":"flow_variable.onboardee_full_name","label":"Flow Variables➛Onboardee Full Name","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"39bedc9a-5bd9-4e96-b00a-a2841a5ab1b2"}},{"name":"flow_variable.due_date_for_approval","label":"Flow Variables➛Due Date For Approval","reference":"","reference_display":"","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"2e9d0454-5dbd-44dc-86a1-6a4fdf455f2b"}},{"name":"3dbe41c0-eae2-408a-992d-6af947d4fced.Catalog Task","label":"16➛17 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"17c9c7ef-cb8b-4b12-af3d-e60a3c049e2c.Catalog Task","label":"13➛14 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafa4909-9e85-4780-855a-c07db5648f24.Catalog Task","label":"10➛11 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.run_start_date_time","label":"Trigger - Service Catalog➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.reporting_manager","label":"1 - Get Catalog Variables➛reporting_manager","reference":"sys_user","reference_display":"reporting_manager","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.sys_id","label":"Trigger - Service Catalog➛Requested Item Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id"},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.first_name_prac","label":"1 - Get Catalog Variables➛first_name_prac","reference":"","reference_display":"first_name_prac","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.mid_name_prac","label":"1 - Get Catalog Variables➛mid_name_prac","reference":"","reference_display":"mid_name_prac","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.last_name_prac","label":"1 - Get Catalog Variables➛last_name_prac","reference":"","reference_display":"last_name_prac","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e8ac668b-2898-494a-a168-c310acb1bfd5.record","label":"5 - Create or Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.state_province","label":"Flow Variables➛State/ Province","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5e0bd8e3-beb8-4027-8459-bf94af9534e9"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.skills","label":"1 - Get Catalog Variables➛skills","reference":"","reference_display":"skills","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.professional_experience","label":"1 - Get Catalog Variables➛professional_experience","reference":"","reference_display":"professional_experience","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.perm_address","label":"1 - Get Catalog Variables➛perm_address","reference":"","reference_display":"perm_address","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.mother_name_prac","label":"1 - Get Catalog Variables➛mother_name_prac","reference":"","reference_display":"mother_name_prac","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.phone_number","label":"1 - Get Catalog Variables➛phone_number","reference":"","reference_display":"phone_number","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.joining_location","label":"1 - Get Catalog Variables➛joining_location","reference":"cmn_location","reference_display":"joining_location","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.gender","label":"1 - Get Catalog Variables➛gender","reference":"","reference_display":"gender","type":"choice","base_type":"choice","choices":[{"label":"Male","value":"male","order":100.0},{"label":"Female","value":"female","order":100.0},{"label":"Other","value":"other","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.father_name_prac","label":"1 - Get Catalog Variables➛father_name_prac","reference":"","reference_display":"father_name_prac","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"","type":"email","base_type":"email","column_name":"","attributes":{"catalogType":"26","catalogTypeLabel":"Email"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.education_level","label":"1 - Get Catalog Variables➛education_level","reference":"","reference_display":"education_level","type":"choice","base_type":"choice","choices":[{"label":"Intermediate","value":"intermediate","order":100.0},{"label":"Diploma","value":"diploma","order":100.0},{"label":"Normal Graduation","value":"graduation","order":100.0},{"label":"Professional Degree","value":"prof_deg","order":100.0},{"label":"Post Graduation","value":"post_grad","order":100.0},{"label":"Professional Post Graduation","value":"prof_post_grad","order":100.0},{"label":"Post Graduate Diploma","value":"pg_diploma","order":100.0},{"label":"Doctorate/ Higher Education","value":"doctorate","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.education_details","label":"1 - Get Catalog Variables➛education_details","reference":"","reference_display":"education_details","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.date_of_birth","label":"1 - Get Catalog Variables➛date_of_birth","reference":"","reference_display":"date_of_birth","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.current_address_details","label":"1 - Get Catalog Variables➛current_address_details","reference":"","reference_display":"current_address_details","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"flow_variable.country","label":"Flow Variables➛Country","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b02781e0-c18b-4792-b7a8-f52db564239c"}},{"name":"flow_variable.city","label":"Flow Variables➛City","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"15e3f7c3-9cc1-46ca-8f86-261a9d5c4301"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.city","label":"1 - Get Catalog Variables➛city","reference":"","reference_display":"city","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.state_province","label":"1 - Get Catalog Variables➛state_province","reference":"","reference_display":"state_province","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.country","label":"1 - Get Catalog Variables➛country","reference":"","reference_display":"country","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"3dbe41c0-eae2-408a-992d-6af947d4fced.Catalog Task.assignment_group","label":"19➛20➛Catalog Task➛20➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛20➛Catalog Task➛Catalog Task➛20 - Create Catalog Task➛Catalog Task➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assignment_group"},{"name":"17c9c7ef-cb8b-4b12-af3d-e60a3c049e2c.Catalog Task.assignment_group","label":"15➛16➛Catalog Task➛16➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛16➛Catalog Task➛Catalog Task➛16➛Catalog Task➛Catalog Task➛15 - Create Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assignment_group"},{"name":"eafa4909-9e85-4780-855a-c07db5648f24.Catalog Task.assignment_group","label":"11➛12➛Catalog Task➛12➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛12➛Catalog Task➛Catalog Task➛12➛Catalog Task➛Catalog Task➛12➛Catalog Task➛Catalog Task➛12 - Create Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛Catalog Task➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assignment_group"},{"name":"flow_variable.due_date_for_request_fulfilment","label":"Flow Variables➛Due Date for Request Fulfilment","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d5f6f62c-f947-467f-ba9e-3e51e3188647"}},{"name":"flow_variable.current_date","label":"Flow Variables➛Current Date","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"55c3f0ab-8c82-4e17-b2f0-7e3bed5749ff"}},{"name":"e8ac668b-2898-494a-a168-c310acb1bfd5.record.due_date","label":"5 - Create or Update Record➛Requested Item Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"due_date"},{"name":"f3d1f6ef-3d3e-4ed7-9522-7cc2d5ad7359.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.onboardee_full_name","label":"Flow Variables➛Onboardee Full Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"39bedc9a-5bd9-4e96-b00a-a2841a5ab1b2"}},{"name":"flow_variable.due_date_for_approval","label":"Flow Variables➛Due Date For Approval","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e9d0454-5dbd-44dc-86a1-6a4fdf455f2b"}},{"name":"3dbe41c0-eae2-408a-992d-6af947d4fced.Catalog Task","label":"19➛20 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"17c9c7ef-cb8b-4b12-af3d-e60a3c049e2c.Catalog Task","label":"15➛16 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eafa4909-9e85-4780-855a-c07db5648f24.Catalog Task","label":"11➛12 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.run_start_date_time","label":"Trigger - Service Catalog➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.reporting_manager","label":"1 - Get Catalog Variables➛reporting_manager","reference":"sys_user","reference_display":"reporting_manager","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.sys_id","label":"Trigger - Service Catalog➛Requested Item Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id"},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.first_name_prac","label":"1 - Get Catalog Variables➛first_name_prac","reference":"","reference_display":"first_name_prac","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.mid_name_prac","label":"1 - Get Catalog Variables➛mid_name_prac","reference":"","reference_display":"mid_name_prac","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7c5ca753-6ca4-4199-b721-233511b93710.last_name_prac","label":"1 - Get Catalog Variables➛last_name_prac","reference":"","reference_display":"last_name_prac","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e8ac668b-2898-494a-a168-c310acb1bfd5.record","label":"5 - Create or Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8af67af1-8f4e-4833-b2d8-bd1177d371a5.record","label":"4 - Create or Update Record➛Request Record","reference":"sc_request","reference_display":"Request Record","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>daf95f644708711098f58977536d43b0</master_snapshot>
         <name>HCL New Employee Onboarding</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>104622e04744711098f58977536d4398</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>HCL New Employee Onboarding</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_flow_104622e04744711098f58977536d4398</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=104622e04744711098f58977536d4398"/>
@@ -70,10 +70,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-12 09:44:27</sys_created_on>
         <sys_id>eb47a2244744711098f58977536d43a0</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:14</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -94,14 +94,83 @@
         <value>background</value>
         <variable display_value="Run flow In">6090c72977203300f5bfcfcc78106159</variable>
     </sys_variable_value>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=104622e04744711098f58977536d4398^sys_idNOT IN74e3411147c0311098f58977536d4348,f0e3411147c0311098f58977536d4348,f8e3411147c0311098f58977536d4347"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=104622e04744711098f58977536d4398^sys_idNOT IN0abedffd47c0711098f58977536d43e0,2265cb6947c0311098f58977536d435c,481d57bd47c0711098f58977536d4345,74e3411147c0311098f58977536d4348,86bedffd47c0711098f58977536d43e0,f0e3411147c0311098f58977536d4348,f8e3411147c0311098f58977536d4347"/>
     <sys_hub_flow_stage action="INSERT_OR_UPDATE">
         <always_show>true</always_show>
         <ancestor_array_position>0</ancestor_array_position>
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>8</component_indexes>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <label>New Employee Onboarding Completed Successfully </label>
+        <order>6</order>
+        <stage_id>b4659a74-b3f1-4d5e-bf80-7a7ec2540ad7</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:58:59</sys_created_on>
+        <sys_id>0abedffd47c0711098f58977536d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:58:59</sys_updated_on>
+        <type>standard</type>
+        <value>onboarding_success</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>0</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <label>Onboarding Request Raised</label>
+        <order>3</order>
+        <stage_id>4ef00c89-b352-481e-aafc-c12f93799ba8</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>2265cb6947c0311098f58977536d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <type>standard</type>
+        <value>req_raised</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>22</component_indexes>
+        <duration>1970-01-03 00:00:00</duration>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <label>Onboarding Formalities Completed and Employee Profile Creation in progress</label>
+        <order>4</order>
+        <stage_id>43ff4e27-80a3-47cd-9f4c-fa3105cbaddb</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:45</sys_created_on>
+        <sys_id>481d57bd47c0711098f58977536d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:45</sys_updated_on>
+        <type>standard</type>
+        <value>emp_profile_creation</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>9</component_indexes>
         <duration>1970-01-06 00:00:00</duration>
         <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
         <label>Onboarding Formalities in progress</label>
@@ -111,12 +180,35 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 10:25:32</sys_created_on>
         <sys_id>74e3411147c0311098f58977536d4348</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 13:17:18</sys_updated_on>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
         <type>standard</type>
         <value>onboarding_in_progress</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>23</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <label>New Employee Profile Creation Successful</label>
+        <order>5</order>
+        <stage_id>0591f007-7d8f-4954-aff5-89544ad96a29</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:58:59</sys_created_on>
+        <sys_id>86bedffd47c0711098f58977536d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:58:59</sys_updated_on>
+        <type>standard</type>
+        <value>emp_Profile_created</value>
     </sys_hub_flow_stage>
     <sys_hub_flow_stage action="INSERT_OR_UPDATE">
         <always_show>true</always_show>
@@ -324,14 +416,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-12 09:44:27</sys_created_on>
         <sys_id>e347a2244744711098f58977536d439a</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -346,7 +438,187 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=104622e04744711098f58977536d4398"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=104622e04744711098f58977536d4398"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=104622e04744711098f58977536d4398^sys_idNOT IN243be1954744311098f58977536d4330,501d78594780311098f58977536d4361,501d78594780311098f58977536d4379,541d78594780311098f58977536d4353,7266f9114784311098f58977536d4367,9c1d78594780311098f58977536d4367,a864288d47c8b11098f58977536d437d,be75018d474cb11098f58977536d4374,d81d78594780311098f58977536d4372,e03be1954744311098f58977536d4329,e3e91f644708711098f58977536d4382"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=104622e04744711098f58977536d4398^sys_idNOT IN001d57bd47c0711098f58977536d430c,001d57bd47c0711098f58977536d432b,243be1954744311098f58977536d4330,441d57bd47c0711098f58977536d4323,481d57bd47c0711098f58977536d431d,501d78594780311098f58977536d4361,7266f9114784311098f58977536d4367,881d57bd47c0711098f58977536d4306,a864288d47c8b11098f58977536d437d,b63f7ee147c0311098f58977536d43e8,b63f7ee147c0311098f58977536d43ef,bb0d17bd47c0711098f58977536d43da,be75018d474cb11098f58977536d4374,c01d17bd47c0711098f58977536d43e1,c01d57bd47c0711098f58977536d4318,cabedffd47c0711098f58977536d43d8,d81d78594780311098f58977536d4372,e03be1954744311098f58977536d4329,e3e91f644708711098f58977536d4382"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Once the resolver group is notified of the request, we will update the stage of the related catalog task record.</comment>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>18</order>
+        <parent_ui_id>e9e61007-45ab-433a-bbc0-a4e2ff4373ab</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>001d57bd47c0711098f58977536d430c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>7560c78e-49d5-4e1d-80b3-4d93eca4b3e5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=001d57bd47c0711098f58977536d430c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>001d57bd47c0711098f58977536d430c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>0c1d57bd47c0711098f58977536d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>001d57bd47c0711098f58977536d430c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>481d57bd47c0711098f58977536d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>state=3^work_notes=The Laptop Issuance task has been completed successfully by the resolver group.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=001d57bd47c0711098f58977536d430c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>001d57bd47c0711098f58977536d430c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>c41d57bd47c0711098f58977536d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{17c9c7ef-cb8b-4b12-af3d-e60a3c049e2c.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>001d57bd47c0711098f58977536d430c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>401d57bd47c0711098f58977536d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>001d57bd47c0711098f58977536d430c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>041d57bd47c0711098f58977536d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=001d57bd47c0711098f58977536d430c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=001d57bd47c0711098f58977536d430c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>After successful onboarding a mail will be sent to the official email ID of the new employee.</comment>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>24</order>
+        <parent_ui_id>4f9051e2-bb45-435f-b34f-ae6825756cbf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>001d57bd47c0711098f58977536d432b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>2a60b8bd-1d5e-4904-ae22-1d1d30001037</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=001d57bd47c0711098f58977536d432b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>001d57bd47c0711098f58977536d432b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>2fd2354e470c711098f58977536d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <value>Onboarding is completed and Employee profile is created successfully.</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>001d57bd47c0711098f58977536d432b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>67d2354e470c711098f58977536d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=001d57bd47c0711098f58977536d432b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>001d57bd47c0711098f58977536d432b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>23d2354e470c711098f58977536d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0f67295f-5009-4457-87e5-649ab93c2564}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0f67295f-5009-4457-87e5-649ab93c2564}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Flow Variables &amp;gt; Onboardee Full Name"&gt;&lt;span class="pill-start"&gt;Flow Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Onboardee Full Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0f67295f-5009-4457-87e5-649ab93c2564" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;We feel immense pleasure to inform you that your onboarding process is completed successfully and your employee profile is created into our database.&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;We look forward to warmly welcome you into our HCL organization.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thanks, and regards.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;System Admin.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>001d57bd47c0711098f58977536d432b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>e3d2354e470c711098f58977536d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>001d57bd47c0711098f58977536d432b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>6bd2354e470c711098f58977536d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{7c5ca753-6ca4-4199-b721-233511b93710.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=001d57bd47c0711098f58977536d432b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=001d57bd47c0711098f58977536d432b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -361,10 +633,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 13:17:17</sys_created_on>
         <sys_id>243be1954744311098f58977536d4330</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:14</sys_updated_on>
         <ui_id>e8ac668b-2898-494a-a168-c310acb1bfd5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=243be1954744311098f58977536d4330"/>
@@ -389,11 +661,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 14:06:18</sys_created_on>
         <sys_id>7a66f9114784311098f58977536d4361</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
         <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
-        <value>approval=requested^u_approver={{7c5ca753-6ca4-4199-b721-233511b93710.reporting_manager}}^assigned_to={"display":"System Administrator(AYUSH)","value":"6816f79cc0a8016401c5a33be04be441","table":"sys_user","sys_id":"6816f79cc0a8016401c5a33be04be441"}^description=Onboarding request has been raised for the employee named, {{flow_variable.onboardee_full_name}}. Please Approve the request so that it can be sent for further processing, within the specified duration.^due_date={{flow_variable.due_date_for_approval}}^priority=2^requested_for={{flow_variable.onboardee_full_name}}^short_description=Onboarding request raised foe a new employee into HCL Organization.^stage=waiting_for_approval^state=1^=</value>
+        <value>approval=requested^u_approver={{7c5ca753-6ca4-4199-b721-233511b93710.reporting_manager}}^assigned_to={"display":"System Administrator(AYUSH)","value":"6816f79cc0a8016401c5a33be04be441","table":"sys_user","sys_id":"6816f79cc0a8016401c5a33be04be441"}^description=Onboarding request has been raised for the employee named, {{flow_variable.onboardee_full_name}}. Please Approve the request so that it can be sent for further processing, within the specified duration.^due_date={{flow_variable.due_date_for_approval}}^priority=2^requested_for={{flow_variable.onboardee_full_name}}^short_description=Onboarding request raised foe a new employee into HCL Organization.^stage=waiting_for_approval^state=1^sc_catalog={"display":"Onboarding to HCL","value":"b9d401f94777211098f58977536d4307","table":"sc_catalog","sys_id":"b9d401f94777211098f58977536d4307"}^cat_item={"display":"Newly Onboarded Employees' Details","value":"110bc57147b7211098f58977536d43b2","table":"sc_cat_item","sys_id":"110bc57147b7211098f58977536d43b2"}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -412,21 +684,185 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment>Once onboarding formalities are completed, we will create user record of the employee in organization's database.</comment>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>23</order>
+        <parent_ui_id>4f9051e2-bb45-435f-b34f-ae6825756cbf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>441d57bd47c0711098f58977536d4323</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>0c16ec52-1e98-48cc-bb61-60b3a8798ba9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=441d57bd47c0711098f58977536d4323"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>441d57bd47c0711098f58977536d4323</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>0c1d57bd47c0711098f58977536d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>441d57bd47c0711098f58977536d4323</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>481d57bd47c0711098f58977536d4324</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 15:16:07</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=441d57bd47c0711098f58977536d4323"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>441d57bd47c0711098f58977536d4323</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>041d57bd47c0711098f58977536d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>441d57bd47c0711098f58977536d4323</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>c41d57bd47c0711098f58977536d4324</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{7c5ca753-6ca4-4199-b721-233511b93710.first_name_prac}}^last_name={{7c5ca753-6ca4-4199-b721-233511b93710.last_name_prac}}^manager={{7c5ca753-6ca4-4199-b721-233511b93710.reporting_manager}}^middle_name={{7c5ca753-6ca4-4199-b721-233511b93710.mid_name_prac}}^u_city={{flow_variable.city}}^u_country={{flow_variable.country}}^u_curr_address={{7c5ca753-6ca4-4199-b721-233511b93710.current_address_details}}^u_date_of_birth={{7c5ca753-6ca4-4199-b721-233511b93710.date_of_birth}}^u_education_details={{7c5ca753-6ca4-4199-b721-233511b93710.education_details}}^u_education_level={{7c5ca753-6ca4-4199-b721-233511b93710.education_level}}^email={{7c5ca753-6ca4-4199-b721-233511b93710.email}}^u_father_name={{7c5ca753-6ca4-4199-b721-233511b93710.father_name_prac}}^gender={{7c5ca753-6ca4-4199-b721-233511b93710.gender}}^u_joining_location={{7c5ca753-6ca4-4199-b721-233511b93710.joining_location}}^mobile_phone={{7c5ca753-6ca4-4199-b721-233511b93710.phone_number}}^u_mother_name={{7c5ca753-6ca4-4199-b721-233511b93710.mother_name_prac}}^u_perm_address={{7c5ca753-6ca4-4199-b721-233511b93710.perm_address}}^u_professional_experience={{7c5ca753-6ca4-4199-b721-233511b93710.professional_experience}}^u_skills={{7c5ca753-6ca4-4199-b721-233511b93710.skills}}^u_state_province={{flow_variable.state_province}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=441d57bd47c0711098f58977536d4323"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=441d57bd47c0711098f58977536d4323"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Once the resolver group is notified of the request, we will update the stage of the related catalog task record.</comment>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>22</order>
+        <parent_ui_id>025f1ff7-d3cc-42f1-88ff-7d21f77cff3b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>481d57bd47c0711098f58977536d431d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>d9a88eef-e961-46a5-be83-7ce0bf576ee0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=481d57bd47c0711098f58977536d431d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>481d57bd47c0711098f58977536d431d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>441d57bd47c0711098f58977536d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>481d57bd47c0711098f58977536d431d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>801d57bd47c0711098f58977536d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>state=3^work_notes=The ODC Access Request task has been completed successfully by the resolver group.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=481d57bd47c0711098f58977536d431d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>481d57bd47c0711098f58977536d431d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>001d57bd47c0711098f58977536d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{3dbe41c0-eae2-408a-992d-6af947d4fced.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>481d57bd47c0711098f58977536d431d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>881d57bd47c0711098f58977536d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>481d57bd47c0711098f58977536d431d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>4c1d57bd47c0711098f58977536d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=481d57bd47c0711098f58977536d431d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=481d57bd47c0711098f58977536d431d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
         <action_type_parent/>
         <comment>If the manager approves the request, we will create a catalog task of raising a new laptop issuance request for the onboardee and assign it to respective resolver group.</comment>
         <display_text/>
         <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
-        <order>13➛14</order>
+        <order>15➛16</order>
         <parent_ui_id>e9e61007-45ab-433a-bbc0-a4e2ff4373ab</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>501d78594780311098f58977536d4361</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <ui_id>17c9c7ef-cb8b-4b12-af3d-e60a3c049e2c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=501d78594780311098f58977536d4361"/>
@@ -438,11 +874,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>101d78594780311098f58977536d4364</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>501d78594780311098f58977536d4361</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>1265cb6947c0311098f58977536d4350</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <value>assignment_group={"display":"HCL Laptop Issuance","value":"dc727c394737211098f58977536d435a","sys_id":"dc727c394737211098f58977536d435a"}^description=Please issue  a company laptop for the requested onboardee at the earliest as a part of employee's onboarding process.^priority=2</value>
-        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <value>110bc57147b7211098f58977536d43b2</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -457,6 +907,20 @@
         <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
         <value>0</value>
         <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>501d78594780311098f58977536d4361</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>5e65cb6947c0311098f58977536d434f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:14</sys_updated_on>
+        <value>0302344647f3611098f58977536d43fe:item_option_new,d574780a47f3611098f58977536d4372:item_option_new,f4e6fcc647f3611098f58977536d43fa:item_option_new,d232ae9647b3211098f58977536d4357:item_option_new,9468f84647f3611098f58977536d4341:item_option_new,8959bcca47f3611098f58977536d4399:item_option_new,57ac83784784b11098f58977536d433a:item_option_new,e2319f7c4784b11098f58977536d433e:item_option_new,77d1577c4784b11098f58977536d4364:item_option_new,82fdb4ca47f3611098f58977536d43ae:item_option_new,c79eb44e47f3611098f58977536d4373:item_option_new,5089c90e4737611098f58977536d4305:item_option_new,5c9ac98e4737611098f58977536d4350:item_option_new,cc9c098e4737611098f58977536d43c2:item_option_new,173aceda4733211098f58977536d4364:item_option_new,bebaceda4733211098f58977536d4369,2a80d98e4737611098f58977536d435c:item_option_new,387355c64777611098f58977536d4358:item_option_new,5b3455464777611098f58977536d433d:item_option_new,23e455c64777611098f58977536d435e:item_option_new,7f23c5ce4748711098f58977536d43a7:item_option_new,9aeb380a4748711098f58977536d433f:item_option_new,450d304a4748711098f58977536d43ad:item_option_new,753eb04a4748711098f58977536d4324:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -479,11 +943,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>181d78594780311098f58977536d4363</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
-        <value/>
+        <value>assignment_group={"display":"HCL Laptop Issuance","value":"dc727c394737211098f58977536d435a","sys_id":"dc727c394737211098f58977536d435a"}^description=Please issue  a company laptop for the requested onboardee at the earliest as a part of employee's onboarding process.^priority=2^approval=approved^sc_catalog={"display":"Onboarding to HCL","value":"b9d401f94777211098f58977536d4307","table":"sc_catalog","sys_id":"b9d401f94777211098f58977536d4307"}^due_date={{flow_variable.due_date_for_request_fulfilment}}^cat_item={"display":"Newly Onboarded Employees' Details","value":"110bc57147b7211098f58977536d43b2","table":"sc_cat_item","sys_id":"110bc57147b7211098f58977536d43b2"}^short_description=Laptop Issuance Request has been raised for the onboardee.^state=1^sys_class_name=sc_task^work_notes=HCL Laptop Issuance task is open and necessary action is required.</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_requested_item</field>
@@ -521,184 +985,32 @@
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value/>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>501d78594780311098f58977536d4361</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>5665cb6947c0311098f58977536d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>501d78594780311098f58977536d4361</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>1a65cb6947c0311098f58977536d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=501d78594780311098f58977536d4361"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=501d78594780311098f58977536d4361"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
-        <action_type_parent/>
-        <comment/>
-        <display_text/>
-        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
-        <order>18</order>
-        <parent_ui_id>025f1ff7-d3cc-42f1-88ff-7d21f77cff3b</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>501d78594780311098f58977536d4379</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
-        <ui_id>b0cd3f47-0330-45f7-af82-5e2084d18022</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=501d78594780311098f58977536d4379"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>501d78594780311098f58977536d4379</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>5c1d78594780311098f58977536d437a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <value>sc_task</value>
-        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>501d78594780311098f58977536d4379</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>981d78594780311098f58977536d437a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <value>3be83c514780311098f58977536d439f</value>
-        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=501d78594780311098f58977536d4379"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>notification</field>
-        <id>501d78594780311098f58977536d4379</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>901d78594780311098f58977536d437a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>501d78594780311098f58977536d4379</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>181d78594780311098f58977536d437a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value>{{3dbe41c0-eae2-408a-992d-6af947d4fced.Catalog Task}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>501d78594780311098f58977536d4379</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>541d78594780311098f58977536d437a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=501d78594780311098f58977536d4379"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=501d78594780311098f58977536d4379"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
-        <action_type_parent/>
-        <comment/>
-        <display_text/>
-        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
-        <order>12</order>
-        <parent_ui_id>c242a765-599e-473c-a41b-f1c86c38d107</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>541d78594780311098f58977536d4353</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
-        <ui_id>d22aa1f4-9f22-443d-9038-f2c30fdd7ed1</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=541d78594780311098f58977536d4353"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>541d78594780311098f58977536d4353</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>5c1d78594780311098f58977536d4355</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <value>dc9534514780311098f58977536d43bb</value>
-        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>541d78594780311098f58977536d4353</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>941d78594780311098f58977536d4356</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <value>sc_task</value>
-        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=541d78594780311098f58977536d4353"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>notification</field>
-        <id>541d78594780311098f58977536d4353</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>101d78594780311098f58977536d4355</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>541d78594780311098f58977536d4353</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>d81d78594780311098f58977536d4355</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value>{{eafa4909-9e85-4780-855a-c07db5648f24.Catalog Task}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>541d78594780311098f58977536d4353</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>181d78594780311098f58977536d4355</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=541d78594780311098f58977536d4353"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=541d78594780311098f58977536d4353"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -713,10 +1025,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 14:06:18</sys_created_on>
         <sys_id>7266f9114784311098f58977536d4367</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <ui_id>f3d1f6ef-3d3e-4ed7-9522-7cc2d5ad7359</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7266f9114784311098f58977536d4367"/>
@@ -854,91 +1166,65 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>After creating the catalog task, we will fire an event "newLaptopIssuanceRequest" which will then send a notification to the respective resolver group.</comment>
         <display_text/>
         <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
-        <order>15</order>
+        <order>17</order>
         <parent_ui_id>e9e61007-45ab-433a-bbc0-a4e2ff4373ab</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>9c1d78594780311098f58977536d4367</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>881d57bd47c0711098f58977536d4306</sys_id>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
-        <ui_id>77023a3a-f7f2-4e7f-a75d-529d09c696ac</ui_id>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>fb21aad7-bfff-4d0e-aa8d-b4337e819a54</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=9c1d78594780311098f58977536d4367"/>
+    <sys_variable_value action="delete_multiple" query="document_key=881d57bd47c0711098f58977536d4306"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>9c1d78594780311098f58977536d4367</document_key>
-        <order>2</order>
+        <document_key>881d57bd47c0711098f58977536d4306</document_key>
+        <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>981d78594780311098f58977536d4369</sys_id>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>8c1d57bd47c0711098f58977536d4307</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <value>sc_task</value>
-        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>sysevent</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>9c1d78594780311098f58977536d4367</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>d41d78594780311098f58977536d4369</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <value>87f770d14780311098f58977536d432d</value>
-        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=9c1d78594780311098f58977536d4367"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>notification</field>
-        <id>9c1d78594780311098f58977536d4367</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>dc1d78594780311098f58977536d4368</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>9c1d78594780311098f58977536d4367</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>541d78594780311098f58977536d4369</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
-        <value>{{17c9c7ef-cb8b-4b12-af3d-e60a3c049e2c.Catalog Task}}</value>
-    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="id=881d57bd47c0711098f58977536d4306"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
-        <id>9c1d78594780311098f58977536d4367</id>
+        <id>881d57bd47c0711098f58977536d4306</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 09:55:44</sys_created_on>
-        <sys_id>901d78594780311098f58977536d4369</sys_id>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>481d57bd47c0711098f58977536d4307</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=9c1d78594780311098f58977536d4367"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9c1d78594780311098f58977536d4367"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>881d57bd47c0711098f58977536d4306</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>0c1d57bd47c0711098f58977536d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name=x_58872_needit.newLaptopIssuanceRequest^table=Catalog Task [sc_task]^state=ready^instance={{17c9c7ef-cb8b-4b12-af3d-e60a3c049e2c.Catalog Task}}^parm1={{17c9c7ef-cb8b-4b12-af3d-e60a3c049e2c.Catalog Task.assignment_group}}^parm2={{flow_variable.onboardee_full_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=881d57bd47c0711098f58977536d4306"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=881d57bd47c0711098f58977536d4306"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -953,10 +1239,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 13:29:24</sys_created_on>
         <sys_id>a864288d47c8b11098f58977536d437d</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:14</sys_updated_on>
         <ui_id>dad4a7cf-66a0-4316-b5e8-4485e6a5ef32</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a864288d47c8b11098f58977536d437d"/>
@@ -993,14 +1279,238 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 13:29:24</sys_created_on>
         <sys_id>e864288d47c8b11098f58977536d437f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 13:29:24</sys_updated_on>
+        <sys_updated_on>2023-07-15 12:36:33</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>name=x_58872_needit.newOnboardingServiceRequested^table=Requested Item [sc_req_item]^state=ready^instance={{Service Catalog_1.request_item.sys_id}}^parm1={{7c5ca753-6ca4-4199-b721-233511b93710.reporting_manager}}^parm2={{7c5ca753-6ca4-4199-b721-233511b93710.first_name_prac}}+" "+{{7c5ca753-6ca4-4199-b721-233511b93710.mid_name_prac}}+" "+{{7c5ca753-6ca4-4199-b721-233511b93710.last_name_prac}}</value>
+        <value>name=x_58872_needit.newOnboardingServiceRequested^table=Requested Item [sc_req_item]^state=ready^instance={{Service Catalog_1.request_item.sys_id}}^parm1={{7c5ca753-6ca4-4199-b721-233511b93710.reporting_manager}}^parm2={{flow_variable.onboardee_full_name}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a864288d47c8b11098f58977536d437d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a864288d47c8b11098f58977536d437d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>We will update the approval and related fields to approved stage in the Request record.</comment>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>8</order>
+        <parent_ui_id>4f9051e2-bb45-435f-b34f-ae6825756cbf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>b63f7ee147c0311098f58977536d43e8</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>66bfd6e0-8b96-4b80-90d1-dedf0de81949</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b63f7ee147c0311098f58977536d43e8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b63f7ee147c0311098f58977536d43e8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>7e3f7ee147c0311098f58977536d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
+        <value>sc_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b63f7ee147c0311098f58977536d43e8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b63f7ee147c0311098f58977536d43e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>fa3f7ee147c0311098f58977536d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{8af67af1-8f4e-4833-b2d8-bd1177d371a5.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b63f7ee147c0311098f58977536d43e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>723f7ee147c0311098f58977536d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b63f7ee147c0311098f58977536d43e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>3a3f7ee147c0311098f58977536d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>approval=approved^request_state=in_process^stage=fulfillment^state=2^work_notes=Onboarding request is approved by reporting manager:  {{7c5ca753-6ca4-4199-b721-233511b93710.reporting_manager}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b63f7ee147c0311098f58977536d43e8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b63f7ee147c0311098f58977536d43e8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>We will update the approval and related fields to approved stage in the Requested Item record.</comment>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>9</order>
+        <parent_ui_id>4f9051e2-bb45-435f-b34f-ae6825756cbf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>b63f7ee147c0311098f58977536d43ef</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>d982265e-1e5c-4316-b9cf-45ad93dee644</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b63f7ee147c0311098f58977536d43ef"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b63f7ee147c0311098f58977536d43ef</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>b23f7ee147c0311098f58977536d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b63f7ee147c0311098f58977536d43ef</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>fe3f7ee147c0311098f58977536d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
+        <value>approval=approved^stage=Fulfillment^state=2^work_notes=Onboarding request has been approved by reporting manager.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b63f7ee147c0311098f58977536d43ef"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b63f7ee147c0311098f58977536d43ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>7e3f7ee147c0311098f58977536d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{e8ac668b-2898-494a-a168-c310acb1bfd5.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b63f7ee147c0311098f58977536d43ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>f63f7ee147c0311098f58977536d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b63f7ee147c0311098f58977536d43ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:02:55</sys_created_on>
+        <sys_id>ba3f7ee147c0311098f58977536d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b63f7ee147c0311098f58977536d43ef"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b63f7ee147c0311098f58977536d43ef"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment>After creating the catalog task, we will fire an event "newO365MailboxCreationRequest" which will then send a notification to the respective resolver group.</comment>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>13</order>
+        <parent_ui_id>c242a765-599e-473c-a41b-f1c86c38d107</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>bb0d17bd47c0711098f58977536d43da</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>505be77a-ee9a-4b7e-acc3-a78442c3fa17</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb0d17bd47c0711098f58977536d43da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb0d17bd47c0711098f58977536d43da</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>bb0d17bd47c0711098f58977536d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>sysevent</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bb0d17bd47c0711098f58977536d43da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bb0d17bd47c0711098f58977536d43da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>730d17bd47c0711098f58977536d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bb0d17bd47c0711098f58977536d43da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>3b0d17bd47c0711098f58977536d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name=x_58872_needit.newO365MailboxCreationRequest^table=Catalog Task [sc_task]^state=ready^instance={{eafa4909-9e85-4780-855a-c07db5648f24.Catalog Task}}^parm1={{eafa4909-9e85-4780-855a-c07db5648f24.Catalog Task.assignment_group}}^parm2={{flow_variable.onboardee_full_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bb0d17bd47c0711098f58977536d43da"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bb0d17bd47c0711098f58977536d43da"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1009,16 +1519,16 @@
         <comment>If the manager approves the request, we will create a catalog task of creating O365 Mailbox for the onboardee and assign it to respective resolver group.</comment>
         <display_text/>
         <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
-        <order>10➛11</order>
+        <order>11➛12</order>
         <parent_ui_id>c242a765-599e-473c-a41b-f1c86c38d107</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 15:54:00</sys_created_on>
         <sys_id>be75018d474cb11098f58977536d4374</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <ui_id>eafa4909-9e85-4780-855a-c07db5648f24</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=be75018d474cb11098f58977536d4374"/>
@@ -1030,11 +1540,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 15:54:00</sys_created_on>
         <sys_id>7275018d474cb11098f58977536d4378</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be75018d474cb11098f58977536d4374</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>9a65cb6947c0311098f58977536d433a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 15:54:00</sys_updated_on>
-        <value>assignment_group={"display":"HCL O365 Mailbox Creation","value":"f98430b94737211098f58977536d43c0","sys_id":"f98430b94737211098f58977536d43c0"}^description=Please create the MS Office 365 Mailbox Account for the requested onboardee at the earliest as a part of employee's onboarding process.^priority=2</value>
-        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <value>110bc57147b7211098f58977536d43b2</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1049,6 +1573,20 @@
         <sys_updated_on>2023-07-13 15:54:00</sys_updated_on>
         <value>0</value>
         <variable display_value="Wait">f751fd0e73141300612c273ffff6a7b2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be75018d474cb11098f58977536d4374</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>d665cb6947c0311098f58977536d433a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:14</sys_updated_on>
+        <value>0302344647f3611098f58977536d43fe:item_option_new,d574780a47f3611098f58977536d4372:item_option_new,f4e6fcc647f3611098f58977536d43fa:item_option_new,d232ae9647b3211098f58977536d4357:item_option_new,9468f84647f3611098f58977536d4341:item_option_new,8959bcca47f3611098f58977536d4399:item_option_new,57ac83784784b11098f58977536d433a:item_option_new,e2319f7c4784b11098f58977536d433e:item_option_new,77d1577c4784b11098f58977536d4364:item_option_new,82fdb4ca47f3611098f58977536d43ae:item_option_new,c79eb44e47f3611098f58977536d4373:item_option_new,5089c90e4737611098f58977536d4305:item_option_new,5c9ac98e4737611098f58977536d4350:item_option_new,cc9c098e4737611098f58977536d43c2:item_option_new,173aceda4733211098f58977536d4364:item_option_new,bebaceda4733211098f58977536d4369,2a80d98e4737611098f58977536d435c:item_option_new,387355c64777611098f58977536d4358:item_option_new,5b3455464777611098f58977536d433d:item_option_new,23e455c64777611098f58977536d435e:item_option_new,7f23c5ce4748711098f58977536d43a7:item_option_new,9aeb380a4748711098f58977536d433f:item_option_new,450d304a4748711098f58977536d43ad:item_option_new,753eb04a4748711098f58977536d4324:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1071,11 +1609,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 15:54:00</sys_created_on>
         <sys_id>7a75018d474cb11098f58977536d4377</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 15:54:00</sys_updated_on>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
-        <value/>
+        <value>assignment_group={"display":"HCL O365 Mailbox Creation","value":"f98430b94737211098f58977536d43c0","sys_id":"f98430b94737211098f58977536d43c0"}^description=Please create the MS Office 365 Mailbox Account for the requested onboardee at the earliest as a part of employee's onboarding process.^priority=2^approval=approved^sc_catalog={"display":"Onboarding to HCL","value":"b9d401f94777211098f58977536d4307","table":"sc_catalog","sys_id":"b9d401f94777211098f58977536d4307"}^due_date={{flow_variable.due_date_for_request_fulfilment}}^cat_item={"display":"Newly Onboarded Employees' Details","value":"110bc57147b7211098f58977536d43b2","table":"sc_cat_item","sys_id":"110bc57147b7211098f58977536d43b2"}^short_description=MS Office 365 Mailbox Creation for requested onboardee.^state=1^sys_class_name=sc_task^work_notes=MS Office 365 MAilbox creation task is open and necessary action is required.</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_requested_item</field>
@@ -1113,8 +1651,274 @@
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value/>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>be75018d474cb11098f58977536d4374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>de65cb6947c0311098f58977536d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>be75018d474cb11098f58977536d4374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>9265cb6947c0311098f58977536d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=be75018d474cb11098f58977536d4374"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=be75018d474cb11098f58977536d4374"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Once the resolver group is notified of the request, we will update the stage of the related catalog task record.</comment>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>14</order>
+        <parent_ui_id>c242a765-599e-473c-a41b-f1c86c38d107</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>c01d17bd47c0711098f58977536d43e1</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>8c3deeb7-7a8a-4f48-b298-cd05b87259b5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c01d17bd47c0711098f58977536d43e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c01d17bd47c0711098f58977536d43e1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>001d17bd47c0711098f58977536d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>state=3^work_notes=The Office 365 Mailbox creation task has been completed successfully by the resolver group.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c01d17bd47c0711098f58977536d43e1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>c01d17bd47c0711098f58977536d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c01d17bd47c0711098f58977536d43e1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c01d17bd47c0711098f58977536d43e1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>8c1d17bd47c0711098f58977536d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{eafa4909-9e85-4780-855a-c07db5648f24.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c01d17bd47c0711098f58977536d43e1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>081d17bd47c0711098f58977536d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c01d17bd47c0711098f58977536d43e1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>c81d17bd47c0711098f58977536d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c01d17bd47c0711098f58977536d43e1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c01d17bd47c0711098f58977536d43e1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment>After creating the catalog task, we will fire an event "newODCAccessRequestRaised" which will then send a notification to the respective resolver group.</comment>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>21</order>
+        <parent_ui_id>025f1ff7-d3cc-42f1-88ff-7d21f77cff3b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>c01d57bd47c0711098f58977536d4318</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>60bf2548-bac9-4f97-8888-bcbf5ebbf203</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c01d57bd47c0711098f58977536d4318"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c01d57bd47c0711098f58977536d4318</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>c41d57bd47c0711098f58977536d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <value>sysevent</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c01d57bd47c0711098f58977536d4318"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c01d57bd47c0711098f58977536d4318</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>801d57bd47c0711098f58977536d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c01d57bd47c0711098f58977536d4318</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:51:44</sys_created_on>
+        <sys_id>441d57bd47c0711098f58977536d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 10:51:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name=x_58872_needit.newODCAccessRequestRaised^table=Catalog Task [sc_task]^state=ready^instance={{3dbe41c0-eae2-408a-992d-6af947d4fced.Catalog Task}}^parm1={{3dbe41c0-eae2-408a-992d-6af947d4fced.Catalog Task.assignment_group}}^parm2={{flow_variable.onboardee_full_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c01d57bd47c0711098f58977536d4318"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c01d57bd47c0711098f58977536d4318"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <order>26</order>
+        <parent_ui_id>f6aa08d7-dea4-4e58-8509-7437c3424d29</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 10:58:59</sys_created_on>
+        <sys_id>cabedffd47c0711098f58977536d43d8</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>80eacc4d-8c03-48b2-8cdb-a8fba39337f2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cabedffd47c0711098f58977536d43d8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cabedffd47c0711098f58977536d43d8</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>a3d2354e470c711098f58977536d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <value>Onboarding Could not be completed.</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cabedffd47c0711098f58977536d43d8</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>efd2354e470c711098f58977536d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cabedffd47c0711098f58977536d43d8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>cabedffd47c0711098f58977536d43d8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>abd2354e470c711098f58977536d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1ef87133-fde2-4009-861e-ec9b2a729615}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1ef87133-fde2-4009-861e-ec9b2a729615}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Flow Variables &amp;gt; Onboardee Full Name"&gt;&lt;span class="pill-start"&gt;Flow Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Onboardee Full Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1ef87133-fde2-4009-861e-ec9b2a729615" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;We whole heartedly regret to inform you that your onboarding formalities could not be completed and you profile creation also failed.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;But, you can still keep on applying for new positions in our organization. We wish you all the best for your future.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thanks, and regards.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;System Admin.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>cabedffd47c0711098f58977536d43d8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>6fd2354e470c711098f58977536d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>cabedffd47c0711098f58977536d43d8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>e7d2354e470c711098f58977536d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{7c5ca753-6ca4-4199-b721-233511b93710.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cabedffd47c0711098f58977536d43d8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cabedffd47c0711098f58977536d43d8"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1123,19 +1927,33 @@
         <comment>If the manager approves the request, we will create a catalog task of raising the ODC access request for the onboardee and assign it to respective resolver group.</comment>
         <display_text/>
         <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
-        <order>16➛17</order>
+        <order>19➛20</order>
         <parent_ui_id>025f1ff7-d3cc-42f1-88ff-7d21f77cff3b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>d81d78594780311098f58977536d4372</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <ui_id>3dbe41c0-eae2-408a-992d-6af947d4fced</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d81d78594780311098f58977536d4372"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d81d78594780311098f58977536d4372</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>2665cb6947c0311098f58977536d4358</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:14</sys_updated_on>
+        <value>0302344647f3611098f58977536d43fe:item_option_new,d574780a47f3611098f58977536d4372:item_option_new,f4e6fcc647f3611098f58977536d43fa:item_option_new,d232ae9647b3211098f58977536d4357:item_option_new,9468f84647f3611098f58977536d4341:item_option_new,8959bcca47f3611098f58977536d4399:item_option_new,57ac83784784b11098f58977536d433a:item_option_new,e2319f7c4784b11098f58977536d433e:item_option_new,77d1577c4784b11098f58977536d4364:item_option_new,82fdb4ca47f3611098f58977536d43ae:item_option_new,c79eb44e47f3611098f58977536d4373:item_option_new,5089c90e4737611098f58977536d4305:item_option_new,5c9ac98e4737611098f58977536d4350:item_option_new,cc9c098e4737611098f58977536d43c2:item_option_new,173aceda4733211098f58977536d4364:item_option_new,bebaceda4733211098f58977536d4369,2a80d98e4737611098f58977536d435c:item_option_new,387355c64777611098f58977536d4358:item_option_new,5b3455464777611098f58977536d433d:item_option_new,23e455c64777611098f58977536d435e:item_option_new,7f23c5ce4748711098f58977536d43a7:item_option_new,9aeb380a4748711098f58977536d433f:item_option_new,450d304a4748711098f58977536d43ad:item_option_new,753eb04a4748711098f58977536d4324:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>d81d78594780311098f58977536d4372</document_key>
@@ -1144,10 +1962,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>541d78594780311098f58977536d4375</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
-        <value>assignment_group={"display":"HCL ODC Access","value":"ea147cfd47f3211098f58977536d4385","sys_id":"ea147cfd47f3211098f58977536d4385"}^description=Please fulfil the ODC Access request for the new onboardee at the earliest as a part of employee's onboarding process.^priority=2</value>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <value/>
         <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1178,6 +1996,20 @@
         <value>This task is assigned to HCL ODC Access team for providing the ODC access to the newly onboarded employee. Please fulfil at the earliest.</value>
         <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d81d78594780311098f58977536d4372</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>e665cb6947c0311098f58977536d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <value>110bc57147b7211098f58977536d43b2</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d81d78594780311098f58977536d4372"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_fields</field>
@@ -1185,11 +2017,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>5c1d78594780311098f58977536d4374</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 09:55:44</sys_updated_on>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
-        <value/>
+        <value>assignment_group={"display":"HCL ODC Access","value":"ea147cfd47f3211098f58977536d4385","sys_id":"ea147cfd47f3211098f58977536d4385"}^description=Please fulfil the ODC Access request for the new onboardee at the earliest as a part of employee's onboarding process.^priority=2^approval=approved^sc_catalog={"display":"Onboarding to HCL","value":"b9d401f94777211098f58977536d4307","table":"sc_catalog","sys_id":"b9d401f94777211098f58977536d4307"}^due_date={{flow_variable.due_date_for_approval}}^cat_item={"display":"Newly Onboarded Employees' Details","value":"110bc57147b7211098f58977536d43b2","table":"sc_cat_item","sys_id":"110bc57147b7211098f58977536d43b2"}^short_description=ODC Access Request has been raised for the onboardee. ^state=1^sys_class_name=sc_task^work_notes=ODC Access Fulfilment task is open and necessary action is required.</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_requested_item</field>
@@ -1227,6 +2059,30 @@
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value/>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>d81d78594780311098f58977536d4372</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>2e65cb6947c0311098f58977536d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>d81d78594780311098f58977536d4372</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:56</sys_created_on>
+        <sys_id>ee65cb6947c0311098f58977536d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d81d78594780311098f58977536d4372"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d81d78594780311098f58977536d4372"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1243,10 +2099,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 13:17:17</sys_created_on>
         <sys_id>e03be1954744311098f58977536d4329</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:14</sys_updated_on>
         <ui_id>8af67af1-8f4e-4833-b2d8-bd1177d371a5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e03be1954744311098f58977536d4329"/>
@@ -1271,11 +2127,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 13:17:17</sys_created_on>
         <sys_id>243be1954744311098f58977536d432b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-15 14:02:55</sys_updated_on>
         <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
-        <value>approval=requested^assigned_to={"display":"System Administrator(AYUSH)","value":"6816f79cc0a8016401c5a33be04be441","table":"sys_user","sys_id":"6816f79cc0a8016401c5a33be04be441"}^business_duration=1970-01-11 00:00:00^description=A new employee's onboarding request is raised by the concerned department and needs to be fulfilled within the specified duration.^due_date={{flow_variable.due_date_for_approval}}^request_state=requested^requested_for={{flow_variable.onboardee_full_name}}^short_description=Onboarding request raised for a new employee named {{flow_variable.onboardee_full_name}}.^stage=requested^state=1^priority=2</value>
+        <value>approval=requested^assigned_to={"display":"System Administrator(AYUSH)","value":"6816f79cc0a8016401c5a33be04be441","table":"sys_user","sys_id":"6816f79cc0a8016401c5a33be04be441"}^business_duration=1970-01-11 00:00:00^description=A new employee's onboarding request is raised by the concerned department and needs to be fulfilled within the specified duration.^due_date={{flow_variable.due_date_for_approval}}^request_state=requested^requested_for={{flow_variable.onboardee_full_name}}^short_description=Onboarding request raised for a new employee named {{flow_variable.onboardee_full_name}}.^stage=requested^state=1^priority=2^=</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -1318,10 +2174,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-12 13:25:38</sys_created_on>
         <sys_id>e3e91f644708711098f58977536d4382</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:14</sys_updated_on>
         <ui_id>7c5ca753-6ca4-4199-b721-233511b93710</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e3e91f644708711098f58977536d4382"/>
@@ -1347,10 +2203,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-12 13:25:38</sys_created_on>
         <sys_id>a3e91f644708711098f58977536d4385</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-12 13:25:38</sys_updated_on>
-        <value>0302344647f3611098f58977536d43fe:item_option_new,d574780a47f3611098f58977536d4372:item_option_new,f4e6fcc647f3611098f58977536d43fa:item_option_new,d232ae9647b3211098f58977536d4357:item_option_new,9468f84647f3611098f58977536d4341:item_option_new,8959bcca47f3611098f58977536d4399:item_option_new,82fdb4ca47f3611098f58977536d43ae:item_option_new,c79eb44e47f3611098f58977536d4373:item_option_new,5089c90e4737611098f58977536d4305:item_option_new,5c9ac98e4737611098f58977536d4350:item_option_new,cc9c098e4737611098f58977536d43c2:item_option_new,173aceda4733211098f58977536d4364:item_option_new,bebaceda4733211098f58977536d4369:item_option_new,2a80d98e4737611098f58977536d435c:item_option_new,387355c64777611098f58977536d4358:item_option_new,5b3455464777611098f58977536d433d:item_option_new,23e455c64777611098f58977536d435e:item_option_new</value>
+        <sys_updated_on>2023-07-16 21:38:13</sys_updated_on>
+        <value>0302344647f3611098f58977536d43fe:item_option_new,d574780a47f3611098f58977536d4372:item_option_new,f4e6fcc647f3611098f58977536d43fa:item_option_new,d232ae9647b3211098f58977536d4357:item_option_new,9468f84647f3611098f58977536d4341:item_option_new,8959bcca47f3611098f58977536d4399:item_option_new,82fdb4ca47f3611098f58977536d43ae:item_option_new,c79eb44e47f3611098f58977536d4373:item_option_new,5089c90e4737611098f58977536d4305:item_option_new,5c9ac98e4737611098f58977536d4350:item_option_new,cc9c098e4737611098f58977536d43c2:item_option_new,173aceda4733211098f58977536d4364:item_option_new,2a80d98e4737611098f58977536d435c:item_option_new,387355c64777611098f58977536d4358:item_option_new,5b3455464777611098f58977536d433d:item_option_new,23e455c64777611098f58977536d435e:item_option_new,7f23c5ce4748711098f58977536d43a7:item_option_new,9aeb380a4748711098f58977536d433f:item_option_new,450d304a4748711098f58977536d43ad:item_option_new,753eb04a4748711098f58977536d4324:item_option_new,57ac83784784b11098f58977536d433a:item_option_new,e2319f7c4784b11098f58977536d433e:item_option_new,77d1577c4784b11098f58977536d4364:item_option_new</value>
         <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=e3e91f644708711098f58977536d4382"/>
@@ -1393,7 +2249,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=e3e91f644708711098f58977536d4382"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e3e91f644708711098f58977536d4382"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=104622e04744711098f58977536d4398"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=104622e04744711098f58977536d4398^sys_idNOT IN141d78594780311098f58977536d436a,1c1d78594780311098f58977536d4346,581d78594780311098f58977536d4349,901d78594780311098f58977536d4357,a275018d474cb11098f58977536d4358,ea75018d474cb11098f58977536d435d,ec3be1954744311098f58977536d431e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=104622e04744711098f58977536d4398^sys_idNOT IN141d78594780311098f58977536d436a,1c1d78594780311098f58977536d4346,581d78594780311098f58977536d4349,901d78594780311098f58977536d4357,a275018d474cb11098f58977536d4358,bc99500a47c4711098f58977536d43d0,ec3be1954744311098f58977536d431e,ec99500a47c4711098f58977536d43bf"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">9c1d78594780311098f58977536d4369</block>
         <comment/>
@@ -1407,7 +2263,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
-        <order>16</order>
+        <order>19</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>8aa201c7-15c4-4c6f-b242-bcefe30f270f</parent_ui_id>
@@ -1415,10 +2271,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>141d78594780311098f58977536d436a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <ui_id>025f1ff7-d3cc-42f1-88ff-7d21f77cff3b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1429,7 +2285,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=141d78594780311098f58977536d436a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">901d78594780311098f58977536d4346</block>
-        <comment/>
+        <comment>Then we will perform catalog-tasks creation steps in parallel.</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -1440,18 +2296,18 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
-        <order>9</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
-        <parent_ui_id/>
+        <parent_ui_id>4f9051e2-bb45-435f-b34f-ae6825756cbf</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>1c1d78594780311098f58977536d4346</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <ui_id>8aa201c7-15c4-4c6f-b242-bcefe30f270f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1473,7 +2329,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
-        <order>10</order>
+        <order>11</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>8aa201c7-15c4-4c6f-b242-bcefe30f270f</parent_ui_id>
@@ -1481,10 +2337,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>581d78594780311098f58977536d4349</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <ui_id>c242a765-599e-473c-a41b-f1c86c38d107</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1506,7 +2362,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
-        <order>13</order>
+        <order>15</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>8aa201c7-15c4-4c6f-b242-bcefe30f270f</parent_ui_id>
@@ -1514,10 +2370,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 09:55:44</sys_created_on>
         <sys_id>901d78594780311098f58977536d4357</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <ui_id>e9e61007-45ab-433a-bbc0-a4e2ff4373ab</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1528,7 +2384,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=901d78594780311098f58977536d4357"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">2675018d474cb11098f58977536d4357</block>
-        <comment>Manager rejects the onboarding request.</comment>
+        <comment>If onboarding request is approved by the onboardee's manager, we will proceed with the next onboarding formalities.</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -1537,6 +2393,7 @@
         <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>7</order>
@@ -1547,10 +2404,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 15:54:00</sys_created_on>
         <sys_id>a275018d474cb11098f58977536d4358</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
         <ui_id>4f9051e2-bb45-435f-b34f-ae6825756cbf</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1564,18 +2421,42 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-13 15:54:00</sys_created_on>
         <sys_id>6e75018d474cb11098f58977536d435c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 15:54:00</sys_updated_on>
-        <value>Requested Item is Rejected By Manager</value>
+        <sys_updated_on>2023-07-15 12:36:33</sys_updated_on>
+        <value>Onboarding Service Request is approved by the RM.</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398^id=a275018d474cb11098f58977536d4358"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e^id=a275018d474cb11098f58977536d4358"/>
+    <sys_element_mapping action="delete_multiple" query="id=a275018d474cb11098f58977536d4358"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a275018d474cb11098f58977536d4358</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-13 15:54:00</sys_created_on>
+        <sys_id>ea75018d474cb11098f58977536d435c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 12:36:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f3d1f6ef-3d3e-4ed7-9522-7cc2d5ad7359.approval_state}}=approved^{{e8ac668b-2898-494a-a168-c310acb1bfd5.record.due_date}}&gt;{{flow_variable.current_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>a275018d474cb11098f58977536d4358</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-13 15:54:00</sys_created_on>
+        <sys_id>2a75018d474cb11098f58977536d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-13 15:54:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a275018d474cb11098f58977536d4358"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a275018d474cb11098f58977536d4358"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">6675018d474cb11098f58977536d435d</block>
+        <block display_value="">3899500a47c4711098f58977536d43d0</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1587,29 +2468,29 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>8</order>
+        <order>27</order>
         <outputs_assigned/>
         <outputs_to_assign/>
-        <parent_ui_id>4f9051e2-bb45-435f-b34f-ae6825756cbf</parent_ui_id>
+        <parent_ui_id>f6aa08d7-dea4-4e58-8509-7437c3424d29</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-13 15:54:00</sys_created_on>
-        <sys_id>ea75018d474cb11098f58977536d435d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2023-07-16 15:16:07</sys_created_on>
+        <sys_id>bc99500a47c4711098f58977536d43d0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:19</sys_updated_on>
-        <ui_id>a4ca9c3a-9b4d-410c-80df-b82eb429021d</ui_id>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>c5438113-20f0-437f-b062-3da6b7b6d6f4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=ea75018d474cb11098f58977536d435d"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398^id=ea75018d474cb11098f58977536d435d"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ea75018d474cb11098f58977536d435d"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=ea75018d474cb11098f58977536d435d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bc99500a47c4711098f58977536d43d0"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398^id=bc99500a47c4711098f58977536d43d0"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bc99500a47c4711098f58977536d43d0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bc99500a47c4711098f58977536d43d0"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">603be1954744311098f58977536d431e</block>
-        <comment>We will set a due date for the manager approval, and also update the onboardee's full name variable.</comment>
+        <comment>We will set current date, a due date for the manager approval, and also update the onboardee's full name  and other variables.</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -1618,7 +2499,7 @@
         <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
         <flow_variable/>
         <flow_variable/>
-        <flow_variables_assigned>due_date_for_approval,onboardee_full_name</flow_variables_assigned>
+        <flow_variables_assigned>due_date_for_approval,onboardee_full_name,current_date,due_date_for_request_fulfilment,country,state_province,city</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -1629,10 +2510,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-14 13:17:17</sys_created_on>
         <sys_id>ec3be1954744311098f58977536d431e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 14:06:18</sys_updated_on>
+        <sys_updated_on>2023-07-16 21:46:14</sys_updated_on>
         <ui_id>4697e55a-24b2-4ee3-aebf-9c7acfa74d5b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1644,15 +2525,79 @@
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-14 13:17:17</sys_created_on>
-        <sys_id>ec3be1954744311098f58977536d4322</sys_id>
+        <sys_created_on>2023-07-15 14:29:55</sys_created_on>
+        <sys_id>16658b6947c0311098f58977536d43e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-14 13:17:17</sys_updated_on>
-        <value>"return gs.daysAgo(-7);"</value>
+        <sys_updated_on>2023-07-15 14:29:55</sys_updated_on>
+        <value>"return gs.daysAgo(-10);"</value>
+        <variable display_value="Due Date for Request Fulfilment">16658b6947c0311098f58977536d43d5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ec3be1954744311098f58977536d431e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 12:36:33</sys_created_on>
+        <sys_id>257b66214780311098f58977536d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 12:36:33</sys_updated_on>
+        <value>"return new GlideDate(); "</value>
+        <variable display_value="Current Date">ed7b26214780311098f58977536d43fc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ec3be1954744311098f58977536d431e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:17:17</sys_created_on>
+        <sys_id>ec3be1954744311098f58977536d4322</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 12:36:33</sys_updated_on>
+        <value>"return gs.daysAgo(-5);"</value>
         <variable display_value="Due Date For Approval">2c3be1954744311098f58977536d4304</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ec3be1954744311098f58977536d431e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>city</field>
+        <id>ec3be1954744311098f58977536d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:38:13</sys_created_on>
+        <sys_id>420135ca470c711098f58977536d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</table>
+        <value>{{7c5ca753-6ca4-4199-b721-233511b93710.city}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>country</field>
+        <id>ec3be1954744311098f58977536d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:38:13</sys_created_on>
+        <sys_id>8a0135ca470c711098f58977536d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</table>
+        <value>{{7c5ca753-6ca4-4199-b721-233511b93710.country}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>current_date</field>
+        <id>ec3be1954744311098f58977536d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 12:36:33</sys_created_on>
+        <sys_id>a17b66214780311098f58977536d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 12:36:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</table>
+        <value/>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>due_date_for_approval</field>
         <id>ec3be1954744311098f58977536d431e</id>
@@ -1662,6 +2607,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-14 13:17:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date_for_request_fulfilment</field>
+        <id>ec3be1954744311098f58977536d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:55</sys_created_on>
+        <sys_id>92658b6947c0311098f58977536d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:55</sys_updated_on>
         <table>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</table>
         <value/>
     </sys_element_mapping>
@@ -1677,10 +2634,338 @@
         <table>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</table>
         <value>{{7c5ca753-6ca4-4199-b721-233511b93710.first_name_prac}}+" "+{{7c5ca753-6ca4-4199-b721-233511b93710.mid_name_prac}}+" "+{{7c5ca753-6ca4-4199-b721-233511b93710.last_name_prac}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>state_province</field>
+        <id>ec3be1954744311098f58977536d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:38:13</sys_created_on>
+        <sys_id>060135ca470c711098f58977536d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</table>
+        <value>{{7c5ca753-6ca4-4199-b721-233511b93710.state_province}}</value>
+    </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ec3be1954744311098f58977536d431e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ec3be1954744311098f58977536d431e"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=104622e04744711098f58977536d4398"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=104622e04744711098f58977536d4398^sys_idNOT IN283be1954744311098f58977536d430b,2c3be1954744311098f58977536d4304"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6499500a47c4711098f58977536d43bf</block>
+        <comment/>
+        <connected_to>4f9051e2-bb45-435f-b34f-ae6825756cbf</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>25</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 15:16:07</sys_created_on>
+        <sys_id>ec99500a47c4711098f58977536d43bf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <ui_id>f6aa08d7-dea4-4e58-8509-7437c3424d29</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ec99500a47c4711098f58977536d43bf"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398^id=ec99500a47c4711098f58977536d43bf"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ec99500a47c4711098f58977536d43bf"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ec99500a47c4711098f58977536d43bf"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=104622e04744711098f58977536d4398^sys_idNOT IN63d2354e470c711098f58977536d434a,6bd2354e470c711098f58977536d4349"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>104622e04744711098f58977536d4398</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.onboardee_full_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>63d2354e470c711098f58977536d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1ef87133-fde2-4009-861e-ec9b2a729615</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>104622e04744711098f58977536d4398</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.onboardee_full_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:46:15</sys_created_on>
+        <sys_id>6bd2354e470c711098f58977536d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:46:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0f67295f-5009-4457-87e5-649ab93c2564</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=104622e04744711098f58977536d4398^sys_idNOT IN020135ca470c711098f58977536d43d1,0e0135ca470c711098f58977536d43cd,16658b6947c0311098f58977536d43d5,283be1954744311098f58977536d430b,2c3be1954744311098f58977536d4304,ca0135ca470c711098f58977536d43c9,ed7b26214780311098f58977536d43fc"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=15e3f7c3-9cc1-46ca-8f86-261a9d5c4301</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>city</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>City</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</model>
+        <model_id>104622e04744711098f58977536d4398</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:38:13</sys_created_on>
+        <sys_id>020135ca470c711098f58977536d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5e0bd8e3-beb8-4027-8459-bf94af9534e9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>state_province</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>State/ Province</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</model>
+        <model_id>104622e04744711098f58977536d4398</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:38:13</sys_created_on>
+        <sys_id>0e0135ca470c711098f58977536d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d5f6f62c-f947-467f-ba9e-3e51e3188647</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>due_date_for_request_fulfilment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Due Date for Request Fulfilment</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</model>
+        <model_id>104622e04744711098f58977536d4398</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 14:29:55</sys_created_on>
+        <sys_id>16658b6947c0311098f58977536d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 14:29:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1835,6 +3120,172 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-14 13:17:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b02781e0-c18b-4792-b7a8-f52db564239c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>country</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Country</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</model>
+        <model_id>104622e04744711098f58977536d4398</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-16 21:38:13</sys_created_on>
+        <sys_id>ca0135ca470c711098f58977536d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-16 21:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=55c3f0ab-8c82-4e17-b2f0-7e3bed5749ff</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current Date</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HCL New Employee Onboarding">104622e04744711098f58977536d4398</model>
+        <model_id>104622e04744711098f58977536d4398</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_104622e04744711098f58977536d4398</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-15 12:36:32</sys_created_on>
+        <sys_id>ed7b26214780311098f58977536d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-15 12:36:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
