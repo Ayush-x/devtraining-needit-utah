@@ -29,7 +29,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Newly Onboarded Employees' Details</name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>true</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -39,7 +39,7 @@
         <no_quantity>false</no_quantity>
         <no_quantity_v2>true</no_quantity_v2>
         <no_search>false</no_search>
-        <no_wishlist_v2>true</no_wishlist_v2>
+        <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -64,14 +64,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-03 14:05:32</sys_created_on>
         <sys_id>110bc57147b7211098f58977536d43b2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Newly Onboarded Employees' Details</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sc_cat_item_110bc57147b7211098f58977536d43b2</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-07-14 12:02:45</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-19 08:30:00</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

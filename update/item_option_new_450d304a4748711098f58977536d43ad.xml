@@ -25,7 +25,7 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -37,17 +37,17 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>email</name>
+        <name>personal_email_id</name>
         <order>230</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Email</question_text>
+        <question_text>Personal Email ID</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,16 +77,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-16 17:52:13</sys_created_on>
         <sys_id>450d304a4748711098f58977536d43ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Email</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Personal Email ID</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>item_option_new_450d304a4748711098f58977536d43ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-16 17:52:13</sys_updated_on>
+        <sys_updated_on>2023-07-19 09:17:33</sys_updated_on>
         <table/>
-        <tooltip/>
+        <tooltip>Please provide your personal email ID</tooltip>
         <type>26</type>
         <ui_page/>
         <unique>false</unique>
