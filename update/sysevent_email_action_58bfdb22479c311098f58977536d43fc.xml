@@ -36,8 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>&nbsp;</p>
-<p>${mail_script:latestFive.incidents}</p>]]></message_html>
+        <message_html><![CDATA[<p>${mail_script:latestFive.incidents}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Notify About Latest 5 Incidents</name>
@@ -59,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>58bfdb22479c311098f58977536d43fc</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Notify About Latest 5 Incidents</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -67,7 +66,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_58bfdb22479c311098f58977536d43fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-01 14:03:37</sys_updated_on>
+        <sys_updated_on>2023-08-05 21:28:47</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

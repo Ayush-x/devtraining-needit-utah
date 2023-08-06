@@ -6,64 +6,47 @@
           /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
           /* Optional GlideRecord */ event) 
 {
-	var usersWithInc=[];
-	var inc_list=new GlideRecord('incident');
-	inc_list.addEncodedQuery('caller_id=62826bf03710200044e0bfc8bcbe5df1');
-	inc_list.query();
-	while(inc_list.next())
-	{
-		var userN = inc_list.getDisplayValue('caller_id');
-		usersWithInc.push(userN);
-	}
-	var uniqueUsers = [];
-	for(var x =0;x<usersWithInc.length;x++)
-		{
-			var w =0;
-			var temp = usersWithInc[x];
-			template.print(temp+"");
-			for(var y = 0; y<usersWithInc.length; y++)
-				{
-					if(usersWithInc[y]===temp)
-						{
-							w+=1;
-						}
-				}
-			if(w<=1)
-				{
-					var userID = gs.getUser().getUserByID(temp).getRecord().getValue('sys_id');
-					uniqueUsers.push(userID);
-				}
-		}
-	template.print(usersWithInc+' result');
-	template.print(uniqueUsers+' result');
 	
-	for(var k=0; k<uniqueUsers.length; k++)
+	var db_view = new GlideRecord('x_58872_needit_u_latest_five_incident_consolidated_db_view');
+	db_view.orderBy('inc_caller_id');
+	db_view.query();
+	var callers = [];
+	while(db_view.next())
 		{
-			inc_list.addQuery('caller_id', uniqueUsers[k]);			
-			inc_list.orderByDesc('sys_created_on');
-			inc_list.setLimit(5);
-			inc_list.query();
-			var sno = 0;
-			while(inc_list.next())
+			callers.push(db_view.getValue('user_name'));
+		}	
+	var temp ="";
+	for(var u=0; u<callers.length; u++)
+		{
+			if(callers[u]===temp)
 				{
-					var uName = inc_list.getDisplayValue('caller_id');
-					sno+=1;
-					var res = '('+sno+') Incident Number: '+inc_list.number+', was raised by user named, '+uName+' on date: '+inc_list.sys_created_on+'.<br><br>';
-					template.print(res);
+					continue;
 				}
+			var rec = new GlideQuery('x_58872_needit_u_latest_five_incident_consolidated_db_view')
+			.where('user_name', callers[u])
+			.orderByDesc('inc_sys_created_on')
+			.select('inc_number', 'user_name', 'inc_sys_created_on')
+			.limit(5)
+			.forEach(template.print(function (recrd){
+			var res = ' Incident Number: '+recrd.inc_number+' was raised by user named:                                               '+recrd.user_name+' on: '+recrd.inc_sys_created_on;
+				return res;
+			}));
+			template.print('<br>---------------------------------------------------------------------------------------------------------------------------------------------------------');
+			temp=callers[u];
 		}
+	
 })(current, template, email, email_action, event);]]></script>
         <sys_class_name>sys_script_email</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-31 07:54:26</sys_created_on>
         <sys_id>767c2f2e479c311098f58977536d43d5</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>latestFive.incidents</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_email_767c2f2e479c311098f58977536d43d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-02 08:07:06</sys_updated_on>
+        <sys_updated_on>2023-08-05 21:32:02</sys_updated_on>
     </sys_script_email>
 </record_update>
