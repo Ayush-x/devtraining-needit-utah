@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
+        <attributes>ref_qual_elements=country</attributes>
         <cat_item display_value="Newly Onboarded Employees' Details">110bc57147b7211098f58977536d43b2</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
@@ -26,14 +26,14 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
         <lookup_price/>
         <lookup_table>x_58872_needit_state_province</lookup_table>
-        <lookup_unique>false</lookup_unique>
+        <lookup_unique>true</lookup_unique>
         <lookup_value>state_province_name</lookup_value>
         <macro/>
         <macroponent/>
@@ -42,7 +42,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>state_province</name>
-        <order>320</order>
+        <order>311</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -56,7 +56,7 @@
         <record/>
         <record_producer_table/>
         <reference/>
-        <reference_qual/>
+        <reference_qual>javascript:'country='+current.variables.country</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -75,16 +75,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-13 07:28:53</sys_created_on>
+        <sys_created_on>2023-07-14 11:58:00</sys_created_on>
         <sys_id>e2319f7c4784b11098f58977536d433e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>State/ Province</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>item_option_new_e2319f7c4784b11098f58977536d433e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 07:28:53</sys_updated_on>
+        <sys_updated_on>2023-08-06 14:18:03</sys_updated_on>
         <table/>
         <tooltip>Select Your State/Province as applicable</tooltip>
         <type>18</type>

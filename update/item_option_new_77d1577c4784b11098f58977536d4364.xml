@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
+        <attributes>ref_qual_elements=state_province</attributes>
         <cat_item display_value="Newly Onboarded Employees' Details">110bc57147b7211098f58977536d43b2</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
@@ -26,14 +26,14 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
         <lookup_price/>
         <lookup_table>x_58872_needit_city</lookup_table>
-        <lookup_unique>false</lookup_unique>
+        <lookup_unique>true</lookup_unique>
         <lookup_value>city</lookup_value>
         <macro/>
         <macroponent/>
@@ -56,7 +56,7 @@
         <record/>
         <record_producer_table/>
         <reference/>
-        <reference_qual/>
+        <reference_qual>javascript:'state_province='+current.variables.state_province</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -75,16 +75,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-13 07:30:19</sys_created_on>
+        <sys_created_on>2023-07-14 11:57:59</sys_created_on>
         <sys_id>77d1577c4784b11098f58977536d4364</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>City</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>item_option_new_77d1577c4784b11098f58977536d4364</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-13 07:30:19</sys_updated_on>
+        <sys_updated_on>2023-08-06 14:29:02</sys_updated_on>
         <table/>
         <tooltip>Please select City.</tooltip>
         <type>18</type>
